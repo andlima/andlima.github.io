@@ -127,8 +127,8 @@ e no estilo do livro [Effective C++](https://www.amazon.com/Effective-Specific-I
 
 ## Não misture dados de treino e teste<a id="sec-2-4" name="sec-2-4"></a>
 
--   Overfitting: quando um modelo se ajusta de maneira otimista aos
-    dados de treino
+-   Overfitting: quando um modelo se ajusta demais aos dados de treino e
+    interpreta o ruído como se fosse sinal
 -   Testar o modelo em dados não treinados permite detectar overfitting
 -   Calibrar uma diversidade de modelos e hiperparâmetros nos mesmos
     dados de validação também pode causar overfitting
@@ -146,7 +146,7 @@ e no estilo do livro [Effective C++](https://www.amazon.com/Effective-Specific-I
 
 -   Modelos estruturalmente diferentes por vezes capturam nuances
     diferentes do fenômeno
--   Técnicas de ensemble explorar isso, combinando modelos distintos
+-   Técnicas de ensemble exploram isso, combinando modelos distintos
     para gerar a previsão final
 -   Isso costuma trazer resultados mais robustos, pois a fragilidade de
     um modelo específico é compensada pelos demais
@@ -171,11 +171,11 @@ e no estilo do livro [Effective C++](https://www.amazon.com/Effective-Specific-I
 -   Otimizar uma métrica errada é um desperdício
 -   A métrica do treinamento dos modelos não precisa ser igual à métrica
     de dev e teste
-    -   A métrica de treinamento deve ajudar a encontrar modelos melhores,
-        que capturem melhor fenômeno (ex.: mean squared error,
+    -   A métrica de treinamento deve ajudar a encontrar modelos que
+        capturem melhor o fenômeno (ex.: mean squared error,
         cross-entropy)
     -   A métrica de validação/teste deve ajudar a verificar se o modelo
-        tem um bom desempenho em dados reais (ex.: MAPE, F1-score)
+        tem um bom desempenho em dados desconhecidos (ex.: MAPE, F1-score)
 
 ### Avalie granularidade e periodicidade adequadas para o problema<a id="sec-3-1-3" name="sec-3-1-3"></a>
 
@@ -185,6 +185,8 @@ e no estilo do livro [Effective C++](https://www.amazon.com/Effective-Specific-I
     -   Localidade: loja, centro de distribuição, cidade, UF, país?
     -   Hierarquia: SKU, categoria, família de produto?
 -   Em geral, com maior agregação é mais fácil prever
+    -   Uma possibilidade é agregar para modelar e depois fazer um rateio
+        proporcional ao histórico para entregar a previsão
 -   O importante é se adequar à necessidade do negócio
 
 ### Entenda e comunique o que é viável conseguir de acurácia<a id="sec-3-1-4" name="sec-3-1-4"></a>
@@ -236,7 +238,7 @@ e no estilo do livro [Effective C++](https://www.amazon.com/Effective-Specific-I
     -   O que é relevante e desconhecido, para **aprender** com os dados?
 -   Formalize as hipóteses para posteriormente testá-las com os dados
 -   Isso ajuda a definir melhor o problema a ser atacado
--   Também é ajuda a validar se os dados estão bons
+-   Também ajuda a validar se os dados estão bons
 
 ## Data Understanding (entendimento dos dados)<a id="sec-3-2" name="sec-3-2"></a>
 
@@ -263,6 +265,8 @@ e no estilo do livro [Effective C++](https://www.amazon.com/Effective-Specific-I
 
 -   Avalie a ocorrência de dados **faltantes** e **outliers**
     -   Como devem ser interpretados?
+        -   O que significa a falta de um dado numa variável?
+        -   Que desvio é suficiente para caracterizar como outlier?
     -   Pode-se contornar ou corrigir a ocorrência problemática?
     -   A observação como um todo deve ser descartada?
 -   Certifique-se de que os dados realmente trazem a informação esperada
@@ -348,7 +352,7 @@ e no estilo do livro [Effective C++](https://www.amazon.com/Effective-Specific-I
 
 -   Conviver com várias métricas de desempenho pode atrapalhar a busca
     pelo melhor modelo
--   Caso as necessidades de negócio exija conviver com vários critérios
+-   Caso as necessidades de negócio exijam conviver com vários critérios
     distintos, algumas opções são:
     -   Tentar combinar diferentes indicadores em uma métrica única (ex.:
         F1-score em classificação)
@@ -429,7 +433,7 @@ e no estilo do livro [Effective C++](https://www.amazon.com/Effective-Specific-I
 
 ### Armazene o input utilizado para predição em produção<a id="sec-3-6-3" name="sec-3-6-3"></a>
 
--   Quando um problema é identificado no processo, é importante ter o
+-   Quando é identificado um problema no processo, é importante ter
     disponível o input exato para investigação
 -   Se o modelo puxa o input direto de um banco de dados dinâmico, pode
     ser difícil reproduzir o erro
