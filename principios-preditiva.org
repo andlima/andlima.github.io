@@ -76,6 +76,7 @@ e no estilo do livro [[https://www.amazon.com/Effective-Specific-Improve-Program
 - Isso costuma trazer resultados mais robustos, pois a fragilidade de
   um modelo específico é compensada pelos demais
 
+
 * Princípios por etapa do processo CRISP-DM
 
 ** Business Understanding (entendimento do negócio)
@@ -377,5 +378,5 @@ e no estilo do livro [[https://www.amazon.com/Effective-Specific-Improve-Program
 * Conclusão
 
 Espero que o documento seja proveitoso para outros entusiastas de
-ciência de dados, especialmente para quem está começando. Vou evoluir
-o material ao longo do tempo. Comentários e sugestões são bem-vindos
+ciência de dados, especialmente para quem está começando. Vou tentar
+evoluir o material no futuro. Comentários e sugestões são bem-vindos.
