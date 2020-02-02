@@ -448,4 +448,4 @@ e no estilo do livro [Effective C++](https://www.amazon.com/Effective-Specific-I
 Espero que o documento seja proveitoso para outros entusiastas de
 ciência de dados, especialmente para quem está começando. Vou tentar
 evoluir o material no futuro. Comentários e sugestões são bem-vindos e
-podem ser feitos [neste gist](https://gist.github.com/andlima/31acf1be40b996225b3ae51f07842275).
+podem ser feitos [neste gist](https://gist.github.com/andlima/d19fdfde3b0c94a602d2606021d2e877).
