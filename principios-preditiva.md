@@ -2,8 +2,8 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#sec-1">1. Do que se trata isto?</a></li>
-<li><a href="#sec-2">2. Princípios gerais</a>
+<li><a href="#sec-1">1. Princípios de Modelagem Preditiva</a></li>
+<li><a href="#sec-2">2. Geral</a>
 <ul>
 <li><a href="#sec-2-1">2.1. "Todos os modelos são errados; alguns são úteis"</a></li>
 <li><a href="#sec-2-2">2.2. Tenha clareza sobre as premissas do modelo</a></li>
@@ -13,7 +13,7 @@
 <li><a href="#sec-2-6">2.6. Combine diferentes modelos usando técnicas de ensemble</a></li>
 </ul>
 </li>
-<li><a href="#sec-3">3. Princípios por etapa do processo CRISP-DM</a>
+<li><a href="#sec-3">3. Etapas do Processo CRISP-DM</a>
 <ul>
 <li><a href="#sec-3-1">3.1. Business Understanding (entendimento do negócio)</a>
 <ul>
@@ -76,7 +76,7 @@
 
 Por [André Lima](https://www.linkedin.com/in/andlima/), em 2020-02-01
 
-# Do que se trata isto?<a id="sec-1" name="sec-1"></a>
+# Princípios de Modelagem Preditiva<a id="sec-1" name="sec-1"></a>
 
 Este documento apresenta um conjunto de princípios que entendo que
 ajudam a direcionar a **construção de um modelo preditivo** para
@@ -95,7 +95,7 @@ recomendação**. Em seguida, vem uma fundamentação **sucinta da sua
 importância**. Tive inspiração na concepção de princípios do [Ray Dalio](https://www.principles.com/)
 e no estilo do livro [Effective C++](https://www.amazon.com/Effective-Specific-Improve-Programs-Designs/dp/0321334876).
 
-# Princípios gerais<a id="sec-2" name="sec-2"></a>
+# Geral<a id="sec-2" name="sec-2"></a>
 
 ## ["Todos os modelos são errados; alguns são úteis"](https://en.wikipedia.org/wiki/All_models_are_wrong)<a id="sec-2-1" name="sec-2-1"></a>
 
@@ -151,7 +151,7 @@ e no estilo do livro [Effective C++](https://www.amazon.com/Effective-Specific-I
 -   Isso costuma trazer resultados mais robustos, pois a fragilidade de
     um modelo específico é compensada pelos demais
 
-# Princípios por etapa do processo CRISP-DM<a id="sec-3" name="sec-3"></a>
+# Etapas do Processo CRISP-DM<a id="sec-3" name="sec-3"></a>
 
 ## Business Understanding (entendimento do negócio)<a id="sec-3-1" name="sec-3-1"></a>
 

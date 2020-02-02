@@ -6,7 +6,7 @@
 
 Por [[https://www.linkedin.com/in/andlima/][André Lima]], em 2020-02-01
 
-* Do que se trata isto?
+* Princípios de Modelagem Preditiva
 
 Este documento apresenta um conjunto de princípios que entendo que
 ajudam a direcionar a *construção de um modelo preditivo* para
@@ -26,7 +26,7 @@ importância*. Tive inspiração na concepção de princípios do [[https://www.
 e no estilo do livro [[https://www.amazon.com/Effective-Specific-Improve-Programs-Designs/dp/0321334876][Effective C++]].
 
 
-* Princípios gerais
+* Geral
 
 ** [[https://en.wikipedia.org/wiki/All_models_are_wrong]["Todos os modelos são errados; alguns são úteis"]]
 
@@ -84,7 +84,7 @@ e no estilo do livro [[https://www.amazon.com/Effective-Specific-Improve-Program
 
 
 
-* Princípios por etapa do processo CRISP-DM
+* Etapas do Processo CRISP-DM
 
 ** Business Understanding (entendimento do negócio)
 
