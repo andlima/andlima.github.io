@@ -1,6 +1,10 @@
+#+TITLE: Princípios de Modelagem Preditiva
+#+AUTHOR: André Lima
+#+DATE: 2020-02-01
+
 Por [[https://www.linkedin.com/in/andlima/][André Lima]], em 2020-02-01
 
-* Introdução
+* Do que se trata isto?
 
 Este documento apresenta um conjunto de princípios que entendo que
 ajudam a direcionar a *construção de um modelo preditivo* para
@@ -75,6 +79,7 @@ e no estilo do livro [[https://www.amazon.com/Effective-Specific-Improve-Program
   para gerar a previsão final
 - Isso costuma trazer resultados mais robustos, pois a fragilidade de
   um modelo específico é compensada pelos demais
+
 
 
 * Princípios por etapa do processo CRISP-DM
@@ -375,8 +380,10 @@ e no estilo do livro [[https://www.amazon.com/Effective-Specific-Improve-Program
 - Garanta que é simples reverter o modelo para uma versão anterior
 
 
-* Conclusão
+
+* Obrigado!
 
 Espero que o documento seja proveitoso para outros entusiastas de
 ciência de dados, especialmente para quem está começando. Vou tentar
-evoluir o material no futuro. Comentários e sugestões são bem-vindos.
+evoluir o material no futuro. Comentários e sugestões são bem-vindos e
+podem ser feitos [[https://gist.github.com/andlima/31acf1be40b996225b3ae51f07842275][neste gist]].
