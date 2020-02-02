@@ -1,3 +1,5 @@
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/setup/theme-readtheorg.setup
+
 #+TITLE: Princípios de Modelagem Preditiva
 #+AUTHOR: André Lima
 #+DATE: 2020-02-01
@@ -24,7 +26,7 @@ importância*. Tive inspiração na concepção de princípios do [[https://www.
 e no estilo do livro [[https://www.amazon.com/Effective-Specific-Improve-Programs-Designs/dp/0321334876][Effective C++]].
 
 
-* Princípios Gerais
+* Princípios gerais
 
 ** [[https://en.wikipedia.org/wiki/All_models_are_wrong]["Todos os modelos são errados; alguns são úteis"]]
 

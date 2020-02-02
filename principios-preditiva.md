@@ -3,7 +3,7 @@
 <div id="text-table-of-contents">
 <ul>
 <li><a href="#sec-1">1. Do que se trata isto?</a></li>
-<li><a href="#sec-2">2. Princípios Gerais</a>
+<li><a href="#sec-2">2. Princípios gerais</a>
 <ul>
 <li><a href="#sec-2-1">2.1. "Todos os modelos são errados; alguns são úteis"</a></li>
 <li><a href="#sec-2-2">2.2. Tenha clareza sobre as premissas do modelo</a></li>
@@ -95,7 +95,7 @@ recomendação**. Em seguida, vem uma fundamentação **sucinta da sua
 importância**. Tive inspiração na concepção de princípios do [Ray Dalio](https://www.principles.com/)
 e no estilo do livro [Effective C++](https://www.amazon.com/Effective-Specific-Improve-Programs-Designs/dp/0321334876).
 
-# Princípios Gerais<a id="sec-2" name="sec-2"></a>
+# Princípios gerais<a id="sec-2" name="sec-2"></a>
 
 ## ["Todos os modelos são errados; alguns são úteis"](https://en.wikipedia.org/wiki/All_models_are_wrong)<a id="sec-2-1" name="sec-2-1"></a>
 
