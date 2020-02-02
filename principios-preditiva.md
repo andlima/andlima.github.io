@@ -2,7 +2,7 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#sec-1">1. Princípios de Modelagem Preditiva</a></li>
+<li><a href="#sec-1">1. Introdução</a></li>
 <li><a href="#sec-2">2. Princípios Gerais</a>
 <ul>
 <li><a href="#sec-2-1">2.1. "Todos os modelos são errados; alguns são úteis"</a></li>
@@ -69,11 +69,14 @@
 </li>
 </ul>
 </li>
+<li><a href="#sec-4">4. Conclusão</a></li>
 </ul>
 </div>
 </div>
 
-# Princípios de Modelagem Preditiva<a id="sec-1" name="sec-1"></a>
+Por [André Lima](https://www.linkedin.com/in/andlima/), em 2020-02-01
+
+# Introdução<a id="sec-1" name="sec-1"></a>
 
 Este documento apresenta um conjunto de princípios que entendo que
 ajudam a direcionar a **construção de um modelo preditivo** para
@@ -91,10 +94,6 @@ Cada princípio é apresentado **de maneira direta, como uma
 recomendação**. Em seguida, vem uma fundamentação **sucinta da sua
 importância**. Tive inspiração na concepção de princípios do [Ray Dalio](https://www.principles.com/)
 e no estilo do livro [Effective C++](https://www.amazon.com/Effective-Specific-Improve-Programs-Designs/dp/0321334876).
-
-Espero que o documento seja proveitoso para outros entusiastas de
-ciência de dados, especialmente para quem está começando. Vou evoluir
-o material ao longo do tempo. Comentários e sugestões são bem-vindos.
 
 # Princípios Gerais<a id="sec-2" name="sec-2"></a>
 
@@ -443,3 +442,9 @@ o material ao longo do tempo. Comentários e sugestões são bem-vindos.
     -   Arquivos de configuração
     -   Em suma, tudo que define o comportamento do modelo
 -   Garanta que é simples reverter o modelo para uma versão anterior
+
+# Conclusão<a id="sec-4" name="sec-4"></a>
+
+Espero que o documento seja proveitoso para outros entusiastas de
+ciência de dados, especialmente para quem está começando. Vou evoluir
+o material ao longo do tempo. Comentários e sugestões são bem-vindos
