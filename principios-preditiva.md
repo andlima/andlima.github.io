@@ -78,17 +78,17 @@ Por [André Lima](https://www.linkedin.com/in/andlima/), em 2020-02-01
 
 # Princípios de Modelagem Preditiva<a id="sec-1" name="sec-1"></a>
 
-Este documento apresenta um conjunto de princípios que entendo que
+Este material apresenta um conjunto de princípios que entendo que
 ajudam a direcionar a **construção de um modelo preditivo** para
-problemas reais. Ele é fruto da minha experiência fazendo ciência de
-dados (principalmente machine learning), trabalhando em consultoria
-para diferentes indústrias, então naturalmente carrega um pouco dessa
+problemas reais. É fruto da minha experiência fazendo ciência de dados
+(principalmente machine learning), trabalhando em consultoria para
+diferentes indústrias, então naturalmente carrega um pouco dessa
 perspectiva.
 
 Na primeira seção estão os princípios mais gerais; em seguida, outros
 que segmentei pelas etapas do [CRISP-DM](https://pt.wikipedia.org/wiki/Cross_Industry_Standard_Process_for_Data_Mining). A ideia aqui não é propor uma
 metodologia ou plano de trabalho. Apenas me baseei no **propósito
-principal** de cada etapa para organizar os princípios.
+principal** de cada etapa para organizar os pontos.
 
 Cada princípio é apresentado **de maneira direta, como uma
 recomendação**. Em seguida, vem uma fundamentação **sucinta da sua
@@ -121,7 +121,7 @@ e no estilo do livro [Effective C++](https://www.amazon.com/Effective-Specific-I
 -   Existem modelos complexos, com pouca transparência no mecanismo de
     predição
 -   Por vezes, modelos mais complexos conseguem trazer maior acurácia
--   Em princípio, a interpretabilidade pode ficar prejudicada
+    -   Em princípio, a interpretabilidade pode ficar prejudicada
 -   Pode-se tentar quebrar a caixa-preta com técnicas como SHAP ou LIME
     -   Isso é mais complicado e envolve mais esforço
 
@@ -137,10 +137,12 @@ e no estilo do livro [Effective C++](https://www.amazon.com/Effective-Specific-I
 
 ## Entenda como o modelo associa o input à previsão<a id="sec-2-5" name="sec-2-5"></a>
 
--   O modelo e as variáveis devem estar relacionados ao fenômeno que se
-    deseja predizer
--   As variáveis de entrada devem ser compatíveis com a natureza do
-    modelo
+-   As variáveis incluídas no modelo devem estar relacionadas ao
+    fenômeno que se deseja predizer
+-   As variáveis e suas interações devem ser compatíveis com a natureza
+    do modelo
+    -   Ex.: converter uma categórica em várias dummies para modelos
+        lineares
 
 ## Combine diferentes modelos usando técnicas de ensemble<a id="sec-2-6" name="sec-2-6"></a>
 
@@ -453,3 +455,6 @@ Espero que o documento seja proveitoso para outros entusiastas de
 ciência de dados, especialmente para quem está começando. Vou tentar
 evoluir o material no futuro. Comentários e sugestões são bem-vindos e
 podem ser feitos [neste gist](https://gist.github.com/andlima/d19fdfde3b0c94a602d2606021d2e877).
+
+Aproveito para agradecer ao [Diego Miro](https://www.linkedin.com/in/diego-miro-71493659/?lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3BjvwLYF9XTne0PWTEEYwcbg%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_detail_base-comment_actor) pela contribuição geral que deu
+nos pontos apresentados.
